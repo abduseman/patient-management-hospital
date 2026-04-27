@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hospital Patient System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Patient Management System</h1>
+
+  <input type="text" id="patientId" placeholder="Patient ID">
+  <input type="text" id="patientName" placeholder="Patient Name">
+  <input type="number" id="age" placeholder="Age">
+  <input type="text" id="disease" placeholder="Disease">
+
+  <button onclick="addPatient()">Add Patient</button>
+
+  <h2>Patient Records</h2>
+  <input type="text" id="search" placeholder="Search by ID">
+  <button onclick="searchPatient()">Search</button>
+
+  <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
